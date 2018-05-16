@@ -1,0 +1,59 @@
+#navbar {
+    opacity: 0.9;
+    background-color: #fff; 
+    width: 100%;
+    margin: 0em;
+    font-size: 13px;
+    z-index: +5;
+    font-family: 'Volkhov', serif;
+    position: fixed;
+    top: 0;
+    padding: 0.5em 0em 0em 0em; 
+}
+/*diplay:flex evenly spaces things out*/
+/* Style the navbar links */
+
+#navbar li {
+    float: right;
+}
+#navlogo{
+    padding: 0px 10px 0px 30px;
+    margin: 15px 10px 0px 10px;
+    float: left;
+}
+
+#mobnavlogo{
+    z-index: +4;
+}
+
+#navbar a{
+    letter-spacing: 0.2em;
+	line-height: 2em;
+    width: 100%;
+    padding: 1em 3.1em 1em 3.2em; 
+    margin-right: 0;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    
+}
+#navbar a:hover {
+    background-color: #fff;
+    color: #39917A;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+	line-height: 2em;
+    
+}
+
+#navbar ul {
+	list-style-type: none;
+	margin: 0em;
+	padding: 0px 0px 0px 0px;
+	overflow: hidden;
+	justify-content: space-around;
+	
+}
+
+
